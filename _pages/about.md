@@ -21,7 +21,7 @@ I am generally interested in natural language processing and machine learning .
 Ziqian Zeng, Jiahong Yu, *<ins>Qianshi Pang</ins>*, Zihao Wang, Huiping Zhuang, Cen Chen
 
 
-<p><a href="https://arxiv.org/abs/2402.15758"><strong>Paper</strong></a> | <a href="https://github.com/kafkayu/Chimera"></a><strong>Github</strong></p>
+<p><a href="https://arxiv.org/abs/2402.15758"><strong>Paper</strong></a> | <a href="https://github.com/kafkayu/Chimera"><strong>Github</strong></a></p>
 
 
 
@@ -36,4 +36,4 @@ Ziqian Zeng, Jiahong Yu, *<ins>Qianshi Pang</ins>*, Zihao Wang, Huiping Zhuang, 
  
 ## 📖 Education
 
-- *2021.09* Undergraduate, Information Security, [South China University of Technology](https://www.scut.edu.cn/new/), GuangZhou, China.
+- *2021.09* Undergraduate, Computer Science and Technology, [South China University of Technology](https://www.scut.edu.cn/new/), GuangZhou, China.
