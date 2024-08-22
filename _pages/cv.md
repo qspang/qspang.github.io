@@ -11,35 +11,20 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. South China University of Technology , 2021 (expected)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
 * Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+  * Dingjia
+  * Duties included: C++Y R&D
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Skill 1 ：C++ Python Java
+* Skill 2 ：DL ML
+
 
 Publications
 ======
@@ -47,18 +32,25 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+# Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+  <ul>
+    {% for post in site.talks reversed %}
+      <!-- 对每个演讲项目进行循环，并在每次迭代中包含 archive-single-talk-cv.html 模板 -->
+      {% include archive-single-talk-cv.html  %}
+    {% endfor %}
+  </ul>
+
+# Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
+  <ul>
+    {% for post in site.teaching reversed %}
+      <!-- 对每个教学项目进行循环，并在每次迭代中包含 archive-single-cv.html 模板 -->
+      {% include archive-single-cv.html %}
+    {% endfor %}
+  </ul>
+
+# Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+  <!-- 列出服务和领导力部分的一些信息，这里只有一个项目：当前加入的 Slack 团队数量 -->
+  * Currently signed in to 43 different slack teams
