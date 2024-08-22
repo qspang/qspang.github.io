@@ -29,7 +29,7 @@ In light of these limitations, we propose Chimera, a novel framework specificall
 
 **OpenScan: A Benchmark for Generalized Open-Vocabulary 3D Scene Understanding**
 
-Youjun Zhao1, Jiaying Lin1, Shuquan Ye1, *<ins>Qianshi Pang2*, Rynson W.H. Lau1, 
+Youjun Zhao1, Jiaying Lin1, Shuquan Ye1, *<ins>Qianshi Pang2</ins>*, Rynson W.H. Lau1, 
 
 <p><a href="https://arxiv.org/abs/2408.11030"><strong>Paper</strong></a> | <a href="https://github.com/YoujunZhao/OpenScan"><strong>Github</strong></a></p>
 
