@@ -9,9 +9,11 @@ redirect_from:
 ---
 
 <!-- ## About Me -->
-I am a undergrad student at [South China University of Technology](https://www.scut.edu.cn/new/), [School of Computer Science and Engineering](https://www2.scut.edu.cn/cs/).
+## 📝 Biography
 
-I am generally interested in natural language processing and machine learning .
+I am an undergraduate student at [South China University of Technology](https://www.scut.edu.cn/new/), [School of Computer Science and Engineering](https://www2.scut.edu.cn/cs/).
+
+I am generally interested in natural language processing and computer vision.
 
 ## 📝 Publications
 
