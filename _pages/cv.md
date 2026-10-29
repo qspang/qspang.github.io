@@ -11,7 +11,13 @@ redirect_from:
 
 Education
 ======
-* B.S. South China University of Technology , 2021 (expected)
+- **2025–2028 (expected)** · M.S. student, School of Software Engineering, [Sun Yat-sen University](https://www.sysu.edu.cn/), China.
+- **2021 (enrolled)** · Undergraduate, School of Computer Science and Engineering, [South China University of Technology](https://www.scut.edu.cn/), China.
+
+Awards
+======
+- University First-Class Scholarship, Sun Yat-sen University — awarded twice during M.S. studies (研究生校级一等奖学金，2 次).
+- **2022.12** · University Scholarship.
 
 Work experience
 ======
@@ -28,9 +34,7 @@ Skills
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+{% include publication-list.html %}
 
   
   <!-- 

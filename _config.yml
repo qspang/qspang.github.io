@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Qianshi Pang"
 title_separator          : "-"
 name                     : &name "Qianshi Pang"
-description              : &description "personal description"
+description              : &description "Qianshi Pang — M.S. student at Sun Yat-sen University, interested in natural language processing and computer vision."
 url                      : https://qspang.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "qspang/qspang.github.io"
@@ -23,11 +23,11 @@ author:
   # Biographic information
   name             : "Qianshi Pang"
   name2             : "庞千石"
-  avatar           : "qspang.jpg"
+  avatar           : "me.jpg"
   pronouns         : # example: "she/her"  
-  bio              : "Undergradute Student at SCUT"
+  bio              : "M.S. Student at SYSU"
   location         : "Online"
-  employer         : "South China University of Technology"
+  employer         : "Sun Yat-sen University"
   uri              : # URL
   email            : "pangqianshi@gmail.com" 
 
