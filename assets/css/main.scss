@@ -39,3 +39,55 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Publication figures alongside their bibliographic details. */
+.publication {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin: 1.5rem 0;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.publication__thumbnail {
+  display: block;
+  flex: 0 0 230px;
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+}
+.publication__thumbnail img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+.publication__thumbnail:hover,
+.publication__thumbnail:focus {
+  border-color: #52adc8;
+}
+.publication__details {
+  flex: 1;
+  min-width: 0;
+}
+.page__content .publication__details p {
+  margin: 0 0 0.5rem;
+}
+.page__content .publication__details p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 640px) {
+  .publication {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.85rem;
+  }
+  .publication__thumbnail {
+    flex: none;
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+    align-self: center;
+  }
+}

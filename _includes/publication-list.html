@@ -1,9 +1,16 @@
 {% assign publications = site.publications | sort: "date" | reverse %}
 {% for paper in publications %}
 <article class="publication">
+  {% if paper.thumbnail %}
+  <a class="publication__thumbnail" href="{{ paper.thumbnail | relative_url }}" aria-label="View figure: {{ paper.title | escape }}">
+    <img src="{{ paper.thumbnail | relative_url }}" alt="{{ paper.thumbnail_alt | escape }}" loading="lazy" decoding="async">
+  </a>
+  {% endif %}
+  <div class="publication__details">
   <p><strong>{{ paper.title | escape }}</strong></p>
   <p>{{ paper.authors | escape | replace: 'Qianshi Pang', '<strong><ins>Qianshi Pang</ins></strong>' }}</p>
   <p><strong>{{ paper.venue | escape }}</strong></p>
   <p><a href="{{ paper.paperurl }}">{{ paper.paperlabel }}</a>{% if paper.arxivurl %} | <a href="{{ paper.arxivurl }}">arXiv</a>{% endif %}{% if paper.codeurl %} | <a href="{{ paper.codeurl }}">GitHub</a>{% endif %}</p>
+  </div>
 </article>
 {% endfor %}

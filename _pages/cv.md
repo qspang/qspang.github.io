@@ -16,7 +16,7 @@ Education
 
 Awards
 ======
-- University First-Class Scholarship, Sun Yat-sen University — awarded twice during M.S. studies (研究生校级一等奖学金，2 次).
+- **2025–2026** · University First-Class Scholarship, Sun Yat-sen University — awarded twice during M.S. studies.
 - **2022.12** · University Scholarship.
 
 Work experience
