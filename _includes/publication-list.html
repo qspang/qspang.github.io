@@ -7,10 +7,10 @@
   </a>
   {% endif %}
   <div class="publication__details">
-  <p><strong>{{ paper.title | escape }}</strong></p>
-  <p>{{ paper.authors | escape | replace: 'Qianshi Pang', '<strong><ins>Qianshi Pang</ins></strong>' }}</p>
-  <p><strong>{{ paper.venue | escape }}</strong></p>
-  <p><a href="{{ paper.paperurl }}">{{ paper.paperlabel }}</a>{% if paper.arxivurl %} | <a href="{{ paper.arxivurl }}">arXiv</a>{% endif %}{% if paper.codeurl %} | <a href="{{ paper.codeurl }}">GitHub</a>{% endif %}</p>
+  <p class="publication__title"><a href="{{ paper.paperurl }}">{{ paper.title | escape }}</a></p>
+  <p class="publication__authors">{{ paper.authors | escape | replace: 'Qianshi Pang', '<ins>Qianshi Pang</ins>' }}</p>
+  <p class="publication__venue">{{ paper.venue | escape }}</p>
+  <p class="publication__links"><a href="{{ paper.paperurl }}">{{ paper.paperlabel }}</a>{% if paper.arxivurl %} | <a href="{{ paper.arxivurl }}">arXiv</a>{% endif %}{% if paper.codeurl %} | <a href="{{ paper.codeurl }}">GitHub</a>{% endif %}</p>
   </div>
 </article>
 {% endfor %}
